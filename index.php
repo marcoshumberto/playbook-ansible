@@ -33,7 +33,8 @@ $stmt->execute();
     <body>
          
         <h1>CADASTRO DE USUÁRIOS</h1>
-         
+        <h3>Servidor: <?php echo $_SERVER['SERVER_ADDR']; ?></h3>        
+
         <p><a href="form-add.php">Adicionar Usuário</a></p>
  
         <h2>Lista de Usuários</h2>
